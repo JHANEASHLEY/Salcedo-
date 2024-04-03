@@ -503,6 +503,19 @@ padding: 0 5rem;
     bottom: .5rem;
     right: 1rem;
 }
+/* ABOUT PAGE BANNER MOBILE */
+@media screen and (max-width: 520px){
+    .aboutBanner_left{
+        display: none;
+    }
+    .aboutBanner_right h1{
+        font-size: 4rem;
+    }
+    .aboutBanner_right ul li a{
+        font-size: 1.5rem;
+    }
+}
+    /* LATEST */
 .lateststyle{
     background-color: var(--clr-dark);
     padding: 3rem 0;
@@ -514,16 +527,15 @@ padding: 0 5rem;
     font-size: 5rem;
 }
 .lateststyle_wrapper{
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 5rem;
-    display: flex;
+
 }
 .lateststyleSection_card{
     background-color: var(--clr-light);
     max-width: 40rem;
     margin-top: 4rem;
-    
 }
 .lateststyleSection_card img{
     width: 40rem;
@@ -541,6 +553,39 @@ padding: 0 5rem;
     margin-bottom: 1rem;
 }
 
+/* LATEST STYLE MOBILE  */
+@media screen and (max-width:520px){
+    .latestSection_wrapper{
+        grid-template-columns: 1fr
+    }
+}
+
+/* CATALOG PAGE BANNER */
+
+.catalogBanner_bg{
+    background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+    ),
+    url(./img/catalog-banner.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* to center the text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.catalogBanner h1{
+    font-size: 7rem;
+    font-weight: 700;
+    color: var(--clr-primary);
+}
+.catalogBanner p{
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
 
 
 
