@@ -587,6 +587,204 @@ padding: 0 5rem;
     line-height: 2.5rem;
 }
 
+.catalogBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+/* INTERIOR DESIGN PACKAGE */
+.package h2 {
+    color: var(--clr-primary);
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 3rem;
+}
+.package_theme {
+    padding: 5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.package_left {
+    width: 500rem;
+    margin-left: 25rem;
+}
+
+.package_right h2 {
+    color: var(--clr-primary);
+    display: flex;
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 6rem;
+    height: -20px;
+}
+.package_right p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-left: 1.5rem;
+}
+/* retro theme */
+.retro_theme {
+    background-color: var(--clr-semilight);
+    padding: 5rem;
+    display: flex;
+    gap: .100rem;
+    flex-direction: row-reverse;
+}
+.retro_left {
+    width: 500rem;
+    margin-left: 25.5rem;
+    display: flex;
+}
+
+.retro_right h2 {
+    color: var(--clr-primary);
+    font-size: 6rem;
+    font-weight: 700;
+    margin-left: 25rem;
+    height: -20px;
+}
+.retro_right p {
+    font-size: 2rem;
+    text-align: justify;
+    margin-left: 25.5rem;
+    
+}
+/* retro theme */
+.shabby h2 {
+    color: var(--clr-primary);
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 3rem;
+}
+.shabby_theme {
+    padding: 5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.shabby_left {
+    width: 500rem;
+    margin-left: 25rem;
+}
+
+.shabby_right h2 {
+    color: var(--clr-primary);
+    display: flex;
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 6rem;
+    height: -20px;
+}
+.shabby_right p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-left: 1.5rem;
+}.package h2 {
+    color: var(--clr-primary);
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 3rem;
+}
+.package_theme {
+    padding: 5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.package_left {
+    width: 500rem;
+    margin-left: 25rem;
+}
+
+.package_right h2 {
+    color: var(--clr-primary);
+    display: flex;
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 6rem;
+    height: -20px;
+}
+.package_right p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-left: 1.5rem;
+}
+/*  retre theme */
+.retro_theme {
+    background-color: var(--clr-semilight);
+    padding: 5rem;
+    display: flex;
+    gap: .100rem;
+    flex-direction: row-reverse;
+}
+.retro_left {
+    width: 500rem;
+    margin-left: 25.5rem;
+    display: flex;
+}
+
+.retro_right h2 {
+    colOr: var(--clr-primary);
+    font-size: 6rem;
+    font-weight: 700;
+    margin-left: 25rem;
+    height: -20px;
+}
+.retro_right p {
+    font-size: 2rem;
+    text-align: justify;
+    margin-left: 25.5rem;
+    
+}
+/* shabby chic theme  */
+.shabby h2 {
+    color: var(--clr-primary);
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 3rem;
+}
+.shabby_theme {
+    padding: 5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.shabby_left {
+    width: 500rem;
+    margin-left: 25rem;
+}
+
+.shabby_right h2 {
+    color: var(--clr-primary);
+    display: flex;
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 6rem;
+    height: -20px;
+}
+.shabby_right p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+
+/* CONTACTS PAGE BANNER */
+
+/* CONTACT */
+.contactsBanner h1 {
+    color: var(--clr-primary);
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: justify;
+    padding: 3rem;
+}
 
 
 
