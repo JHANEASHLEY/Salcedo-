@@ -594,6 +594,7 @@ padding: 0 5rem;
     text-align: center;
 }
 /* INTERIOR DESIGN PACKAGE */
+
 .package h2 {
     color: var(--clr-primary);
     font-size: 6rem;
@@ -625,6 +626,19 @@ padding: 0 5rem;
     line-height: 2.5rem;
     margin-left: 1.5rem;
 }
+.package_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.package_theme {
+    padding: 5rem;
+    display: flex;
+    gap: 0.5rem;
+    max-width: 1500px;
+    
+    width: 100%;
+}
 /* retro theme */
 .retro_theme {
     background-color: var(--clr-semilight);
@@ -650,9 +664,8 @@ padding: 0 5rem;
     font-size: 2rem;
     text-align: justify;
     margin-left: 25.5rem;
-    
 }
-/* retro theme */
+/* shabby theme */
 .shabby h2 {
     color: var(--clr-primary);
     font-size: 6rem;
@@ -714,7 +727,7 @@ padding: 0 5rem;
     line-height: 2.5rem;
     margin-left: 1.5rem;
 }
-/*  retre theme */
+/*  retro theme */
 .retro_theme {
     background-color: var(--clr-semilight);
     padding: 5rem;
@@ -775,15 +788,143 @@ padding: 0 5rem;
 }
 
 
-/* CONTACTS PAGE BANNER */
-
-/* CONTACT */
-.contactsBanner h1 {
+/* UPDATES */
+.updates{
+    padding: 50px;
+}
+.updates_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.about_content{
+    padding: 40px 0;
+    max-width: 500px;
+    width: 100%;
+}
+.updates h1{
     color: var(--clr-primary);
     font-size: 6rem;
     font-weight: 700;
+    text-align: center;
+}
+.updates_content p{
     text-align: justify;
-    padding: 3rem;
+}
+/* BUILDING CATEGORIES */
+.updates{
+    padding: 50px 0;
+}
+.updates_main h2{
+    color: var(--clr-secondary);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.updatesSection_wrapper{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-gap: 50px;
+}
+.updates_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+.updates_card .card{
+    padding: 20px;
+    background: var(--clr-semilight);
+}
+.updates_card .card h4{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: var(--clr-dark);
+}
+.updates_sidebar h2{
+    color: var(--clr-secondary);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.updates_sidebar ul{
+    list-style: none;
+}
+.updates_sidebar ul li{
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.updates_card a{
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--clr-dark);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;  
+}
+@media (max-width: 520px) {
+    .updatePage {
+    flex-direction: column;
+    padding: 0 15px;
+    }
+}
+
+/* CONTACT */
+.contact h1{
+    color: var(--clr-primary);
+    font-size: 6rem;
+    font-weight: 700;
+    display: flex;
+    margin-top: -10rem;
+}
+.contact{
+    padding: 50px 0;
+}
+.contact_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.contact_form input,
+.contact_form text area{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    border-bottom: 1px solid var(--clr-dark);
+    padding: 10px 16px;
+}
+.contact_form{
+    width: 100%;
+    padding: 10px 16px;
+    
+}
+.contact_info{
+    background: var(--clr-dark);
+    color: var(--clr-secondary);
+    padding: 40px;
+}
+.contact-info ul{
+    list-style: none;
+}
+.contact-info ul li{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30rem;
+}
+.contact-info ul li i{
+    font-size: 40px;
+}
+.contact{
+    background-color: var(--clr-semilight);
+    list-style: none;
+}
+
+@media (max-width: 520px) {
+    .contactPage {
+    flex-direction: column;
+    }
 }
 
 
